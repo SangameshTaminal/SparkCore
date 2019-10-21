@@ -28,6 +28,8 @@ object EnableHive {
            spark.sql("select * from cust.ttt").show(10)   
     
     
+           
+           
     
     
     
