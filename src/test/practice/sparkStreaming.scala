@@ -48,8 +48,8 @@ object sparkStreaming {
         }
     }
     )
-    sparkStreaming.start()
-    sparkStreaming.awaitTermination()
+    // By Sangamesh TaminalsparkStreaming.start()
+    sparkStreaming.awaitTermination() //after this many sec it will terminate the pgm.
     
   }
   
