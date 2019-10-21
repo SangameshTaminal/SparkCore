@@ -24,7 +24,7 @@ object EnableHive {
         import spark.implicits._ 
         val data = spark.read.format("csv").load("/home/hduser/hive/data/custs")
         val data1 = data filter(x=> (x(4)=="Pilot"))
-    data1.toDF().write.format("parquet").saveAsTable("custdb.ttt")
+    data1.toDF().write.format("parquet").saveAsTable("custdb.ttt4")
            spark.sql("select * from cust.ttt").show(10)   
     
     
